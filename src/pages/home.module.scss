@@ -1,1 +1,46 @@
-// TODO
+.container {
+  padding-top: 20px;
+  width: 100%;
+
+
+  .posts {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 2rem;
+
+    a {
+      display: block;
+      margin-bottom: 2.5rem;
+      transition: color 0.4s;
+
+      &:hover {
+        h1 {color: var(--purpple);}
+      }
+
+      p {
+        margin: 0.5rem 0;
+      }
+
+      .authorAndCalendar {
+        display: flex;
+        align-items: center;
+
+        span {
+          &:first-child {
+            margin-right: 1.5rem;
+          }
+        }
+      }
+    }
+
+    button {
+      background: transparent;
+      border: 0;
+      color: var(--purpple);
+      margin-top: 4rem;
+      font-size: 1.125rem;
+      font-weight: 600;
+    }
+  }
+}
+
